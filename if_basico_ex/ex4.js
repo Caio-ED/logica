@@ -1,3 +1,5 @@
+//Retorna o preço da compra de X maçãs.
+
 var readline = require('readline-sync')
 
 var qtdMaças = readline.question("Quantidade de Maças que ira comprar: ")

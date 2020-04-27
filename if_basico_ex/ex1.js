@@ -1,3 +1,5 @@
+// Ve se o usuario pode votar.
+
 var readline = require('readline-sync')
 
 var anonasc = readline.question("qual o ano de seu nacimento ?")

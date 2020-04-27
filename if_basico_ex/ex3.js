@@ -1,3 +1,5 @@
+//Confere uma senha.
+
 var readline = require('readline-sync')
 
 var resposta = readline.question("Digite a senha:")

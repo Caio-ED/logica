@@ -1,3 +1,5 @@
+//Pergutnar se quer continuar ou sair do programa
+
 var rs = require('readline-sync')
 
 

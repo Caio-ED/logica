@@ -1,3 +1,5 @@
+//verifica tipos de triangulos de acordo c o angulo
+
 var rs = require('readline-sync')
 
 var angulo1 = rs.questionInt("Qual o valor do 1 angulo: ") 

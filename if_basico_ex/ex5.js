@@ -1,3 +1,5 @@
+// Retorna 3 numeros em ordem crescente
+
 var readline = require('readline-sync')
 
 var n1 = readline.question("Digite o 1 numero: ")

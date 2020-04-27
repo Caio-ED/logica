@@ -1,3 +1,5 @@
+//Ve se um aluno esta aprovado e retorna sua media
+
 var readline = require('readline-sync')
 
 var n1 = readline.questionInt("Digite a 1 nota: ")

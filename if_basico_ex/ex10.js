@@ -1,3 +1,5 @@
+//verifica se um numero esta no intervalo
+
 var readline = require('readline-sync')
 
 var n1 = readline.question("Digite o numero : ")

@@ -1,3 +1,5 @@
+//retorna peso ideal
+
 var readline = require('readline-sync')
 
 var altura = readline.questionFloat("Digite sua altura (0.00) : ")

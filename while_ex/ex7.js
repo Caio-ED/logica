@@ -1,3 +1,6 @@
+//Pergutnar se quer continuar ou sair do programa, e se quer ou nao somar dois numeros
+
+
 var rs = require('readline-sync')
 
 //Sai do programa

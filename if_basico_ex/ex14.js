@@ -1,3 +1,5 @@
+// verificar se um numero é divisor de outro
+
 var readline = require('readline-sync')
 
 var n1 = readline.question("Digite o numero : ")

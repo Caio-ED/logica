@@ -1,3 +1,5 @@
+// Se negativo multiplicar por 3 e se positivo por 2
+
 var readline = require('readline-sync')
 
 var input = readline.questionInt("Digite um numero: ")

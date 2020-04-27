@@ -1,3 +1,5 @@
+//Verifica tipo de triangulo de acordo c o lado
+
 var rs = require('readline-sync')
 
 var lado1 = rs.questionFloat("Qual o valor do 1 lado: ") 

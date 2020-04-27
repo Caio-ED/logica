@@ -1,3 +1,5 @@
+// multiplcar 2 numeros sem usar o operador *
+
 var rs = require('readline-sync');
 
 var n1 = rs.questionInt("Digite o 1 numero a ser multiplicado: ")

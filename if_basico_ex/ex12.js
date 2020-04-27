@@ -1,3 +1,5 @@
+//Pegar dados de uma pessoa e se for mulher pergutnar tempo de casado
+
 var readline = require('readline-sync')
 
 var nome = readline.question("Digite o seu nome: ")

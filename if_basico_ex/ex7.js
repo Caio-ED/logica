@@ -1,3 +1,4 @@
+//verifica qual poligono e retorna sua area.
 
 var readline = require('readline-sync')
 
