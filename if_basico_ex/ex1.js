@@ -16,4 +16,3 @@ if(idade < 16){
 } else {
     console.log("Voce não é mais obrigado a votar")
 }
-
