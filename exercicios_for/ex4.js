@@ -19,6 +19,16 @@ console.log("A seguir a media Final dos alunos: ")
 for(i=0; i<5; i++) {
     console.log("\n" + nome[i])
     console.log("Nota A:", notaA[i], "  Nota B:", notaB[i])
-    console.log("Media Final:" , media[i].toFixed(1)) 
+    console.log("Media Final:" , parseFloat(media[i].toFixed(1))) 
 }
 
+/*aqui eu aprendi funçoes importantes:
+        parseFloat(String) - converte o valor de string para float
+        .toFixed(ncasasdecimais) - Formata o num decimal para qts casas quiser, mas transforma isso em uma String.
+
+        não utilizei mas aprendi tbm:
+        Math.ceil(ndecimal) - arredonda para o n inteiro Teto (absolutamente pra cima)
+        Math.floor(ndecimal) - arredonda para o n inteiro Piso (absolutamente pra baixo)
+
+        Extra: Aprender toLocaleString()
+*/
