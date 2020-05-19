@@ -21,6 +21,7 @@ for(i = 0; i < njogadores; i++){
     //Verifica quais numeros são iguais
 for (i = 0; i < (njogadores - 1); i++){
     var ires = 0
+
     for(j = 0; j < 5; j++){
         for(k = 0; k < 5; k++){
             if(pacote_numeros[i][j] == pacote_numeros[(i + 1)][k]){
