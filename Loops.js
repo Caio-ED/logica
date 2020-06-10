@@ -25,12 +25,23 @@ var meu_array = [batata, cenoura, limao, laranja, goiaba]
     });
 
 //  .Filter()
+    var array_filtrado = meu_array.filter((valor, indice, array) => {
+     valor == typeof ""
+     // a cada flag true ele retorna o valor do array
+ })
+
 //  .Find()
+    var valor_encontrado = meu_array.find((valor, indice, objeto) => {
+    valor == typeof ""
+    // Do mesmo modo que o filter, na primeira flag true ele retorna o valor, mas apenas a primeira, ou seja só retorna um unico.
+})
+
 //  .Reduce()
     meu_array.reduce((sum,vAtual) => sum =+ vAtual)
 
 //  .Every()
     meu_array.every(value => typeof value == String)
+    
 //  .Some()
     meu_array.some((value => value == 'cenoura'))
 
