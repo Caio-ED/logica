@@ -1,3 +1,4 @@
+const rs = require('readline-sync');
 
 
 class Carro {
@@ -9,7 +10,6 @@ class Carro {
     }
 }
 
-var rs = require('readline-sync');
 
 var garagem = new Array()
 for(i=0; i < 2; i++){
